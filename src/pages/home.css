@@ -1,0 +1,111 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://www.carstore.com/-/media/carstore/locations/car-store-coventry-747x420px.ashx?mh=1440&la=en&h=675&w=1200&mw=2560&hash=6C7E116D140897B83C2A8F2B8B6FA284.jpeg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-container p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: #fff;
+}
+
+.home-container button {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.home-container button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.home-title {
+  font-size: 36px;
+  color: #333;
+  font-weight: bold;
+}
+
+.home-description {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+.home-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.home-address,
+.home-business-hours,
+.home-contact {
+  flex-basis: 33%;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.home-address p,
+.home-business-hours p,
+.home-contact p {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.home-address h3,
+.home-business-hours h3,
+.home-contact h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.home-details p,
+.home-details h3 {
+  color: #fff;
+}
+
+.home-details h3 {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.home-details h3:hover {
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .home-details {
+    flex-direction: column;
+  }
+  
+}
+
+.view-store-link {
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+}

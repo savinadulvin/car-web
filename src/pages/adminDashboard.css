@@ -1,0 +1,41 @@
+.admin-dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .admin-dashboard-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .admin-dashboard-container button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  
+  .admin-dashboard-container button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .admin-dashboard-container .link-wrapper {
+    margin-bottom: 1rem;
+  }
+  
+  .admin-dashboard-container .link-wrapper a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .admin-dashboard-container .link-wrapper a:hover {
+    text-decoration: underline;
+  }
+  
+  
